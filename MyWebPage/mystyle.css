@@ -1,0 +1,179 @@
+.logo {
+  font-family: "Times New Roman", Times, serif;
+  font-size: 36px;
+  font-weight: bold;
+  color: white;
+}
+
+nav a {
+  color: white;
+  text-decoration: none;
+  margin: 0 15px;
+  font-weight: bold;
+  display: inline-block;
+  transition: transform 0.2s ease;
+}
+
+nav a:hover {
+  transform: scale(1.1);
+  transition: transform 0.2s ease;
+}
+
+body {
+  margin: 0;
+  font-family: "Times New Roman", Times, serif;
+  background-color: #1c1c1c;
+  color: rgb(216, 216, 216);
+}
+
+header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 20px;
+  background-color: #1e1e1e;
+  border-bottom: 2px solid gray;
+}
+
+.container {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 40px;
+}
+
+.text-section {
+  max-width: 65%;
+  text-align: justify;
+  font-size: 20px;
+  line-height: 1.4;
+  animation: fadeIn 1s;
+}
+
+h1 {
+  font-size: 60px;
+  margin: 0;
+  color: gray;
+  animation: fadeIn 0.6s;
+  text-shadow: 2px 2px 4px rgb(0, 0, 0);
+}
+
+.underline {
+  width: 1012px;
+  height: 4px;
+  background-color: rgb(253, 165, 2);
+  margin: 20px 0;
+  animation: fadeIn 0.8s;
+}
+
+img {
+  max-width: 420px;
+  border-radius: 12px;
+  animation: fadeIn 1.2s;
+}
+
+@keyframes fadeIn {
+  from {opacity: 0;}
+  to {opacity: 1;}
+}
+
+
+-------------/* CA Page*/----------------
+
+.career-align {
+  display: flex;
+  flex-direction: column;
+}
+
+.career-h1 {
+  font-family: "Times New Roman", Times, serif;
+  font-size: 48px;
+  font-weight: bold;
+  color:gray;
+  text-align: center;
+  margin-top: 50px;
+  animation: fadeIn 0.6s;
+  text-shadow: 2px 2px 4px rgb(0, 0, 0);
+}
+
+.career-p {
+  text-align: justify;
+  color: rgb(216, 216, 216);
+  font-size: 24px;
+  line-height: 1.4;
+  max-width: 75%;
+  margin: 23px auto;
+  animation: fadeIn 1s;
+}
+
+.career-underline {
+  width: 1300px;
+  height: 4px;
+  background-color: rgb(253, 165, 2);
+  margin: 23px auto;
+  animation: fadeIn 0.8s;
+}
+
+-------------/* Exp Page*/----------------
+
+.EA-align {
+  display: flex;
+  flex-direction: column;
+}
+
+.EA-h1 {
+  font-family: "Times New Roman", Times, serif;
+  font-size: 48px;
+  font-weight: bold;
+  color:gray;
+  text-align: center;
+  margin-top: 50px;
+  animation: fadeIn 0.6s;
+  text-shadow: 2px 2px 4px rgb(0, 0, 0);
+}
+
+.EA-container {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-left: 55px;
+}
+
+.EA-h2 {
+  font-family: "Times New Roman", Times, serif;
+  font-size: 29px;
+  font-weight: bold;
+  color:rgb(253, 165, 2);
+  text-align: left;
+  margin-top: 23px;
+  animation: fadeIn 0.6s;
+  text-shadow: 2px 2px 4px rgb(0, 0, 0);
+}
+
+.EA-underline {
+  width: 1400px;
+  height: 4px;
+  background-color: rgb(253, 165, 2);
+  margin: 20px auto;
+  animation: fadeIn 0.8s;
+}
+
+.experience-title {
+  margin-bottom: 5px;
+  font-family: "Times New Roman", Times, serif;
+  animation: fadeIn 0.6s;
+}
+
+.experience-d {
+  display: flex;
+  justify-content: space-between;
+  color: #a0a0a0;
+  font-family: "Times New Roman", Times, serif;
+  animation: fadeIn 1s;
+}
+
+.experience-description {
+  line-height: 1;
+  font-family: "Times New Roman", Times, serif;
+  animation: fadeIn 1s;
+}
